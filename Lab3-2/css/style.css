@@ -1,0 +1,70 @@
+body {
+    background-color: #e6e6e6;
+}
+.row {
+    margin: 16px 0;
+}
+
+.container {
+    background-color: #e6e6e6;
+    margin-top: 50px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.container .form-contact {
+    background-color: white;
+    border-radius: 10px;
+    padding: 0 5%;
+}
+.title-contact {
+    padding: 50px;
+    display: block;
+    width: 100%;
+    font-family: Montserrat-Black;
+    font-size: 39px;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 500;
+}
+.col {
+    width: 100%;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    border-radius: 13px;
+    padding: 10px 30px 9px 22px;
+    margin-bottom: 20px;
+}
+label {
+    font-family: Montserrat-SemiBold;
+    font-size: 10px;
+    color: #393939;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+input {
+    outline: none;
+    border: none;
+}
+.input100 {
+    display: block;
+    width: 100%;
+    background: 0 0;
+    font-family: Montserrat-SemiBold;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.2;
+    padding-right: 15px;
+}
+select, textarea, .none-border{
+    border: none;
+}
+.btn {
+    width: 100%;
+    padding: 0;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+

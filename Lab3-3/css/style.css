@@ -1,0 +1,57 @@
+body {
+    background-image: url("/img/back-group.png");
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}
+
+.container-signIn {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.row {
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.title-contact {
+    font-weight: bold;
+}
+input {
+    border: 1px;
+    box-shadow: 10px 10px 50px #bfbebe;
+    border-radius: 20px;
+    height: 70px;
+    width: 400px;
+}
+
+.btn {
+    background-color: #7385ab;
+    height: 50px;
+    border-radius: 25px;
+    width: 200px;
+    box-shadow: 10px 10px 50px #bfbebe;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.icon {
+    display: flex;
+    /*box-shadow: 10px 10px 50px #bfbebe;*/
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+}
+i {
+
+}
+.mt-100 {
+    margin-top: 100px;
+}
