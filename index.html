@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>form_3</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="wrapper">
+            <header>Account</header>
+            <!--full_name-->
+            <div class="full_name">
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+                <input type="text" placeholder="Full Name">
+            </div>
+            <!--email_adress-->
+            <div class="email_address">
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                <input type="text" placeholder="Email Adress">
+            </div>
+            <!--password-->
+            <div class="password">
+                <a href="#"><i class="fa-solid fa-key"></i></a>
+                <input type="password" placeholder="Password">
+            </div>
+            <!--date_of_birth-gender-->
+            <div class="date_of_birth-gender">
+                <!--date_of_birth-->
+                <div class="date_of_birth">
+                    <h2>Date of birth</h2>
+                    <div class="d-m-y">
+                        <input type="text" id="ip1" placeholder="DD">
+                        <input type="text" id="ip2" placeholder="MM">
+                        <input type="text" id="ip3" placeholder="YYYY">
+                    </div>
+                </div>
+                <!--gender-->
+                <div class="gender">
+                    <h2>Gender</h2>
+                    <div class="button">
+                        <button>Male</button>
+                        <button>Female</button>
+                    </div>
+                </div>
+            </div>
+            <!--payment_details-->
+            <div class="payment_details">
+                <h2>Payment Details</h2>
+                <div class="card">
+                    <button id="bt1"><a href="#"><i class="fa-brands fa-cc-visa"></i></a>Credit Card</button>
+                    <button id="bt2"><a href="#"><i class="fa-brands fa-cc-paypal"></i></a>Paypal</button>
+                </div>
+                <div class="card_number">
+                    <a href="#"><i class="fa-regular fa-credit-card"></i></a>
+                    <input type="text" placeholder="Card Number">
+                </div>
+                <div class="card_cvc">
+                    <div class="cvc">
+                        <a href="#"><i class="fa-solid fa-user"></i></a>
+                        <input type="text" placeholder="Card CVC">
+                    </div>
+                    <select name="day-month" id="ddmm">
+                        <option>01 Jan</option>
+                    </select>
+                    <select name="year" id="yyyy">
+                        <option>2015</option>
+                    </select>
+                </div>
+            </div>
+            <h1>Terms and Conditions</h1>
+            <div class="checkbox">
+                <input type="checkbox">
+                <h2>I accept the terms and conditions for signing up to this service, and hereby confirm
+                    I have the privacy policy.</h2>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
